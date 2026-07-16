@@ -1,0 +1,123 @@
+body{
+    background: url('SOLO.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+header{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px #00bfff;    
+}
+
+h3{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+button{
+    padding: 20px;
+    border-radius: 50%;
+    background-color: black;
+    color: lawngreen;
+    
+}
+button:hover{
+    color: red;
+    background-color: wheat;
+    font-weight: bold;
+}
+
+
+input[type="radio"]:checked + label{
+    font-weight: bold;
+    color: red;
+}
+
+input[type="checkbox"]:checked+label{
+    font-weight: bold;
+    color: aqua;
+}
+
+ul li {
+    font-weight: bold;
+    color: darkgoldenrod;
+}
+
+div{
+    color: white;
+    height: 50px;
+    width: 500px;
+    display: flex;
+  justify-content: space-evenly;
+  
+
+}
+
+section{
+    color: aliceblue;
+}
+
+textarea:hover{
+    color: red;
+    background-color: wheat;
+}
+
+#p1{
+    font-style: italic;
+    color: beige;
+}
+#bar{
+    height: 180px;
+    width: 250px;
+    display: flex;
+    border: 5px solid white;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#XP{
+    height: 90px;
+    width: 250px;
+    display: flex;
+    border: 5px solid white;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#bar:hover{
+    color: lavender;
+box-shadow: 0 8px 25px rgba(0,0,0,1);  
+transition: 1s;
+background-color: black; 
+}
+
+#p2{
+    font-style: italic;
+    color: beige;
+}
+
+footer{
+    color: white;
+    
+    font-weight: bold;
+    text-decoration: solid;
+    border: 3px solid wheat;
+    padding: 20px;
+    display: flex;
+
+
+}
+
+#Profile{
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: baseline;
+
+}
+
